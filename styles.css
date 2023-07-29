@@ -1,0 +1,8 @@
+.vertical{
+   width: 1px;
+   height: inherit;
+   background-color: rgba(0, 0, 0, 0.178);
+}
+.butto{
+    margin-left: 30vh;
+}
