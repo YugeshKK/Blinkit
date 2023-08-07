@@ -17,12 +17,12 @@ input:focus{
     margin-left: 10px;
 }
 nav{
-    height: 120px;
+    height: 100px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.221);
 }
 .vertical{
 width: 1px;
-height: 120px;
+height: 100px;
 margin-left: 10px;
 background-color: rgba(128, 128, 128, 0.251);
 }
@@ -65,7 +65,7 @@ form input{
 .hero{
     object-fit: fill;
     margin: 30px;
-    margin-top: 140px;
+    margin-top: 120px;
 }
 .hero img{
     width: 1230px;
@@ -94,18 +94,71 @@ form input{
 }
 .scroll1{
     display: flex;
+    margin: 10px 10px 30px 50px;
 }
 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 179px;
     height: 306px; 
-    margin: 10px;
     border-top: 1px solid rgba(128, 128, 128, 0.267) ;
     border-left: 1px solid rgba(128, 128, 128, 0.267) ;
     box-shadow: 1px 1px rgba(128, 128, 128, 0.267);
     margin-right: 20px;
 }
+.box img{
+    margin-left: 20px;
+}
+.text{
+    margin: 10px;
+}
 .price{
     display: flex;
     flex-direction: row;
+    align-items: start;
     justify-content: space-between;
+}
+.price button{
+    background-color: rgba(172, 255, 47, 0.096);
+    width: 80px;
+    height: 32px;
+    font-size: 13px;
+    color: green;
+    border-radius: 10px;
+    border: 1px rgba(0, 128, 0, 0.158) solid;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    color: #666666;
+}
+.middle li{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.last{
+    display: flex;
+    font-size: 13px;
+    margin: 20px 30px 0 30px;
+    justify-content: space-between;
+}
+#down{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    font-size: 17px;
+}
+#down img{
+    width:90px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
 }
